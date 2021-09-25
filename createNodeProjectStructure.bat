@@ -22,8 +22,9 @@ type nul > "%project%_APIs\public\index.js"
 type nul > app.js
 type nul > .env
 
-START npm i -y
+START npm init -y
 START npm i body-parser express dotenv
 
+
 exit 
-exit
+ 
